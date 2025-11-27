@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond -->
+  <rect width="32" height="32" rx="6" fill="url(#faviconGradient)"/>
+  
+  <!-- Lettre G stylisée -->
+  <text
+    x="16"
+    y="22"
+    font-family="Arial, sans-serif"
+    font-size="20"
+    font-weight="bold"
+    fill="#0f172a"
+    text-anchor="middle"
+    opacity="0.9"
+  >G</text>
+  
+  <!-- Petite flèche vers le haut (croissance) -->
+  <path
+    d="M16 10 L14 14 L16 14 L16 10 Z M16 14 L18 14 Z"
+    fill="#0f172a"
+    opacity="0.6"
+  />
+</svg>
